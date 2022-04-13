@@ -1,0 +1,62 @@
+.container-search {
+  color: blue;
+  font-size: 20px;
+}
+
+.container-search input {
+  background-color: aliceblue;
+  border: none;
+  color: blue;
+  width: 96%;
+}
+
+.container-search input:focus {
+  background-color: aliceblue;
+}
+
+.container-input-btn {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid pink;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btn-clear {
+  background: none;
+  border: none;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: magenta;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/* Modal Error */
+.modal-content {
+  background-color: var(--card_gray) !important;
+  color: white;
+}
+
+.modal-content button {
+  background-color: var(--brand_dark);
+  border: none;
+}
+
+.modal-content button:hover {
+  opacity: 0.9;
+  background-color: var(--brand_dark);
+  border: none;
+}
+
+.app > div {
+  background-color: aliceblue;
+}
